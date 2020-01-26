@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">task2</string>
-    <string name="email_button">EMAIL</string>
-    <string name="subject_text">Notes feedback</string>
-    <string name="email_text">email@example.org</string>
-    <string name="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="main_toolbar_title">Notes</string>
-    <string name="card_title">Note 1</string>
-</resources>
