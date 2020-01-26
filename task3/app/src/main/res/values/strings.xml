@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">task3</string>
+    <string name="delimiter">;</string>
+    <string name="toolbar_title_main">Notes</string>
+</resources>
