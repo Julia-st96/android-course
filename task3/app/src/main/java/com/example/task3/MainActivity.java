@@ -3,6 +3,7 @@ package com.example.task3;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -22,7 +23,12 @@ public class MainActivity extends AppCompatActivity implements NoteAdapter.Liste
 
         final RecyclerView recyclerView = findViewById(R.id.noteRecyclerView);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        if (getResources().getBoolean(R.bool.is_landscape)) {
+            recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        } else {
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        }
+
         recyclerView.setHasFixedSize(true);
         recyclerView.getRecycledViewPool().setMaxRecycledViews(0, 15);
 
